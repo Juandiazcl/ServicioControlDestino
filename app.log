@@ -1,0 +1,89 @@
+2022-07-26 14:59:22.375  INFO 23040 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on LAPTOP-5D8O4P1R with PID 23040 (C:\eclipse\M6.4-Desafio-ServicioControlDestinos\target\classes started by Juan Diaz Villegas in C:\eclipse\M6.4-Desafio-ServicioControlDestinos)
+2022-07-26 14:59:22.385  INFO 23040 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-26 14:59:22.490  INFO 23040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-26 14:59:22.491  INFO 23040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-26 14:59:23.741  INFO 23040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 14:59:23.867  INFO 23040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 2 JPA repository interfaces.
+2022-07-26 14:59:25.188  INFO 23040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-26 14:59:25.211  INFO 23040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 14:59:25.212  INFO 23040 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-26 14:59:25.379  INFO 23040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 14:59:25.379  INFO 23040 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2887 ms
+2022-07-26 14:59:25.760  INFO 23040 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 14:59:25.905  INFO 23040 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-26 14:59:26.369  INFO 23040 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 14:59:26.620  INFO 23040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-26 14:59:27.467  INFO 23040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-26 14:59:27.503  INFO 23040 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-26 14:59:29.132  INFO 23040 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 14:59:29.148  INFO 23040 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 14:59:29.844  WARN 23040 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-26 14:59:30.060 DEBUG 23040 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-26 14:59:30.235 DEBUG 23040 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2022-07-26 14:59:30.296 DEBUG 23040 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-26 14:59:30.314 DEBUG 23040 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-26 14:59:30.579  INFO 23040 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-26 14:59:30.626  WARN 23040 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2022-07-26 14:59:30.632  INFO 23040 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 14:59:30.639  INFO 23040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-26 14:59:30.659  INFO 23040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-26 14:59:30.665  INFO 23040 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-26 14:59:30.690  INFO 23040 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-26 14:59:30.733 ERROR 23040 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2022-07-26 15:00:20.866  INFO 3048 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on LAPTOP-5D8O4P1R with PID 3048 (C:\eclipse\M6.4-Desafio-ServicioControlDestinos\target\classes started by Juan Diaz Villegas in C:\eclipse\M6.4-Desafio-ServicioControlDestinos)
+2022-07-26 15:00:20.869  INFO 3048 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-26 15:00:20.967  INFO 3048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-26 15:00:20.967  INFO 3048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-26 15:00:22.163  INFO 3048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 15:00:22.280  INFO 3048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 2 JPA repository interfaces.
+2022-07-26 15:00:23.522  INFO 3048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-07-26 15:00:23.555  INFO 3048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 15:00:23.556  INFO 3048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-26 15:00:23.704  INFO 3048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 15:00:23.705  INFO 3048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2737 ms
+2022-07-26 15:00:24.079  INFO 3048 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 15:00:24.228  INFO 3048 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-26 15:00:24.641  INFO 3048 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 15:00:24.855  INFO 3048 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-26 15:00:25.554  INFO 3048 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-26 15:00:25.596  INFO 3048 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-07-26 15:00:26.948  INFO 3048 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 15:00:26.963  INFO 3048 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 15:00:27.593  WARN 3048 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-26 15:00:27.801 DEBUG 3048 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-26 15:00:27.969 DEBUG 3048 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2022-07-26 15:00:28.018 DEBUG 3048 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-26 15:00:28.035 DEBUG 3048 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-26 15:00:28.302  INFO 3048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-26 15:00:28.389  INFO 3048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-07-26 15:00:28.416  INFO 3048 --- [restartedMain] com.edutecno.Application                 : Started Application in 8.323 seconds (JVM running for 10.016)
+2022-07-26 15:00:44.935  INFO 3048 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-26 15:00:44.936  INFO 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-26 15:00:44.936 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-26 15:00:44.936 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-26 15:00:44.937 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-26 15:00:44.938 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@49253427
+2022-07-26 15:00:44.939 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6484ce
+2022-07-26 15:00:44.939 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-26 15:00:44.939  INFO 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-07-26 15:00:44.972 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-26 15:00:44.984 DEBUG 3048 --- [http-nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.PasajeroController#pasajeros()
+2022-07-26 15:00:45.060  INFO 3048 --- [http-nio-8082-exec-1] com.edutecno.service.PasajeroServiceImp  : Ejecutando PasajeroServiceImp findAll()
+2022-07-26 15:00:45.370 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-07-26 15:00:46.092 DEBUG 3048 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-26 16:08:58.426  WARN 3048 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s737ms842µs200ns).
